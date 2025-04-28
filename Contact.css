@@ -1,0 +1,117 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+html{
+    background-color: #f5deb3;
+    color: #5d4037;
+}
+.container1 {
+    list-style-type: none;
+    text-align: right;
+    border-bottom: 5px solid #5d4037;
+    scroll-behavior: smooth;
+}
+ul li{
+    position: sticky;
+    left: 0px;
+    display: inline-flex;
+    margin-inline:15px;
+    font-size:1.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    padding: 2px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+a{
+    color:blue;
+    text-decoration: none;
+}
+a:hover{
+    color:whitesmoke;
+    background-color: black;
+    text-decoration: underline;
+    transition: all 1.5s 0.2s;
+}
+.title{
+    font-size: 3rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left:15px;
+    text-decoration:underline;
+}
+.details{
+    font-size: 1.5rem;
+    padding:15px;
+    line-height: 2;
+    border-bottom: 5px solid #5d4037;
+}
+.feedback{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-left:15px;
+    font-weight: bold;
+}
+/* Style for the form container */
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style for the label elements */
+  label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    display: block;
+  }
+  
+  /* Style for the input fields */
+  input[type="text"], input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+  }
+  
+  /* Focus effect for input fields */
+  input[type="text"]:focus, input[type="tel"]:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Style for the placeholder text */
+  input::placeholder {
+    color: #aaa;
+    font-style: italic;
+  }
+  
+  /* Style for the submit button */
+  button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Hover effect for the submit button */
+  button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s;
+  }
+  
